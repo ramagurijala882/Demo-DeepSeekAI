@@ -39,7 +39,7 @@ CMD [ "echo", "Successfully installed!" ]
 
 # pip install --upgrade pip
 
-#(main)> pip install -r requirements.txt
+#(main)> (option) pip install -r requirements.txt
 
 #(main)> docker build -t drone_ai .
 #(main)> docker run -it -p 11434:11434 drone_ai /bin/bash
