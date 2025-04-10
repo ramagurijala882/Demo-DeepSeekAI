@@ -32,7 +32,7 @@ RUN wget $DOWNLOAD_URL -O install1.sh && \
 
 
 # Command to run when the container starts
-CMD [ "echo", "Successfully installed!" ]
+CMD [ "echo", "Successfully installed!!!!!" ]
 
 
 ######## STEPS ###############
@@ -54,3 +54,4 @@ CMD [ "echo", "Successfully installed!" ]
 
 #app> ollama run llama3 --verbose
 
+#> curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3",  "prompt":"What is water?"}'
